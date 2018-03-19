@@ -1,4 +1,4 @@
-FROM node:latest
+FROM adelarosab/moby:latest
 
 RUN apt-get update && apt-get install -y \
         apt-transport-https \
